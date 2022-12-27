@@ -32,6 +32,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     ApertureOverlayLiber \
+    CarrierConfigLiber \
     FrameworksResLiber \
     SettingsResLiber \
     SystemUIResLiber
