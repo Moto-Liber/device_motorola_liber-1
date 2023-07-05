@@ -13,6 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb \
     persist.vendor.audio.calfile7=/vendor/etc/acdbdata/Codec_cal.acdb
 
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.physical.num=5
@@ -31,3 +32,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.sensors.mot_ltv=true \
     persist.vendor.sensors.hal_trigger_ssr=true \
     persist.vendor.sensors.odl.adsp=true
+
+# Spatial Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.audio.spatializer_enabled=true
