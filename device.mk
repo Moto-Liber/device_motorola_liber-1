@@ -31,7 +31,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-statix
 
 PRODUCT_PACKAGES += \
-    ApertureOverlayLiber \
     CarrierConfigLiber \
     FrameworksResLiber \
     SettingsProviderResLiber \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(LOCAL_PATH)/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     $(LOCAL_PATH)/audio/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml
-    
 
 # Camera
 PRODUCT_COPY_FILES += \

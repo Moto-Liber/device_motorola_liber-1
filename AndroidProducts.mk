@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_liber.mk
+    $(LOCAL_DIR)/statix_liber.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_liber-eng \
-    tequila_liber-user \
-    tequila_liber-userdebug
+    statix_liber-eng \
+    statix_liber-user \
+    statix_liber-userdebug

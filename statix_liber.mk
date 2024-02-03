@@ -22,7 +22,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/liber/device.mk)
 
 # Inherit some common StatiXOS stuff.
-$(call inherit-product, vendor/tequila/config/common.mk)
+$(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
+
+# StatiX Flags
+ENABLE_GAMETOOLS := true
+INCLUDE_PIXEL_LAUNCHER := true
+TARGET_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_liber
